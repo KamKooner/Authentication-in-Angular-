@@ -1,0 +1,8 @@
+<form #userlogin="ngForm" (ngSubmit)="onSubmit()">
+    <input [(ngModel)]="model.emailid" #name="ngModel" name="emailid" placeholder="emailid" type="email">
+    <br>
+    <input [(ngModel)]="model.passwd" #name="ngModel" name="passwd" placeholder="password" type="password">
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+  
